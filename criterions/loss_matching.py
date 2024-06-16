@@ -58,7 +58,7 @@ class CriterionCE(nn.Module):
         return loss
 
 
-class CriterionDistillation(nn.Module):
+class CriterionDistillationMatching(nn.Module):
     def __init__(self, num_classes=3):
         super().__init__()
         self.num_classes = num_classes
